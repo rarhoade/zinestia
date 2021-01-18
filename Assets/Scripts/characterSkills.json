@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Agility",
+        "description": "One's quickness and capacity to dodge",
+        "derivedStat": "",
+        "multiplier": 0.6,
+        "BaseValue": 10 
+    },        
+    {
+        "name": "Barter",
+        "description": "One's skill in haggling and trade negotions. Affects one's understanding of economics",
+        "derivedStat": "Charisma",
+        "multiplier": 0.25,
+        "BaseValue": 0
+    },
+    {
+        "name": "Alchemy",
+        "description": "One's understanding and talent and crafting through alchemy",
+        "derivedStat": "",
+        "multiplier": 0.6,
+        "BaseValue": 10
+    },        
+    {
+        "name": "Persuasion",
+        "description": "One's soft skills, ability to communicate and talk to people",
+        "derivedStat": "",
+        "multiplier": 0.25,
+        "BaseValue": 10 
+    },        
+    {
+        "name": "Tech",
+        "description": "One's ability to use and understand technology",
+        "derivedStat": "",
+        "multiplier": 0.3,
+        "BaseValue": 10
+    },        
+    {
+        "name": "Constitution",
+        "description": "One's physical brawn and constitution",
+        "derivedStat": "",
+        "multiplier": 0.5,
+        "BaseValue": 10
+    },        
+    {
+        "name": "Melee Weapons",
+        "description": "One's ability and aptitude with using Melee Weapons",
+        "derivedStat": "",
+        "multiplier": 0.75,
+        "BaseValue": 10 
+    },
+    {
+        "name": "Small Guns",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.6,
+        "BaseValue": 10
+    },        
+    {
+        "name": "Big Guns",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.25,
+        "BaseValue": 10
+    },        
+    {
+        "name": "Throwing",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.3,
+        "BaseValue": 10 
+    },        
+    {
+        "name": "Perception",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.2,
+        "BaseValue": 10
+    },
+    {
+        "name": "Survival",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.3,
+        "BaseValue": 10 
+    },
+    {
+        "name": "Luck",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.3,
+        "BaseValue": 10 
+    },
+    {
+        "name": "Lockpick",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.3,
+        "BaseValue": 10 
+    },
+    {
+        "name": "Stealth",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.3,
+        "BaseValue": 10 
+    },
+    {
+        "name": "Medicine",
+        "description": "",
+        "derivedStat": "",
+        "multiplier": 0.3,
+        "BaseValue": 10 
+    }
+]
