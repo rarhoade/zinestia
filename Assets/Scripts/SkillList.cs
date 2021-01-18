@@ -23,6 +23,10 @@ namespace Kryz.CharacterStats
             }
         }
 
+        void OnValidate() {
+            LoadSkillsFromJson();
+        }
+
         void Awake() {
             LoadSkillsFromJson();
         }
