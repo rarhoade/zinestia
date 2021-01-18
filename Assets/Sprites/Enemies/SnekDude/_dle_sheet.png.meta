@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 3936e83a8bc33fa4c869a02a725ac227
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7959201447578930006
+    second: _dle_sheet_0
+  - first:
+      213: -1017058915061066956
+    second: _dle_sheet_1
+  - first:
+      213: 1953951082265884147
+    second: _dle_sheet_2
+  - first:
+      213: 2254932234316127710
+    second: _dle_sheet_3
+  - first:
+      213: -9019906455458528065
+    second: _dle_sheet_4
+  - first:
+      213: 4546178853818538064
+    second: _dle_sheet_5
+  - first:
+      213: -489805361976426284
+    second: _dle_sheet_6
+  - first:
+      213: -1286018797512051387
+    second: _dle_sheet_7
+  - first:
+      213: 752640656527830889
+    second: _dle_sheet_8
+  - first:
+      213: -3624716696714088780
+    second: _dle_sheet_9
+  - first:
+      213: -1002441064636818943
+    second: _dle_sheet_10
+  - first:
+      213: 1432746520193537223
+    second: _dle_sheet_11
+  - first:
+      213: 2789149794082113966
+    second: _dle_sheet_12
+  - first:
+      213: 4136296066681896061
+    second: _dle_sheet_13
+  - first:
+      213: 5441243964319749374
+    second: _dle_sheet_14
+  - first:
+      213: -3390354400655267379
+    second: _dle_sheet_15
+  - first:
+      213: 5029093264254060304
+    second: _dle_sheet_16
+  - first:
+      213: 1222026845716023432
+    second: _dle_sheet_17
+  - first:
+      213: 9102433295179248698
+    second: _dle_sheet_18
+  - first:
+      213: 5681117823938373507
+    second: _dle_sheet_19
+  - first:
+      213: 5415856231973975790
+    second: _dle_sheet_20
+  - first:
+      213: -4448743059085793570
+    second: _dle_sheet_21
+  - first:
+      213: -5112754689481066284
+    second: _dle_sheet_22
+  - first:
+      213: 7933158450657680197
+    second: _dle_sheet_23
+  - first:
+      213: -4556843209086002127
+    second: _dle_sheet_24
+  - first:
+      213: -6847355595687316236
+    second: _dle_sheet_25
+  - first:
+      213: 5075897850584004711
+    second: _dle_sheet_26
+  - first:
+      213: -439633424967067112
+    second: _dle_sheet_27
+  - first:
+      213: -3952837412502533195
+    second: _dle_sheet_28
+  - first:
+      213: -1404012027617116514
+    second: _dle_sheet_29
+  - first:
+      213: 2917257710017810505
+    second: _dle_sheet_30
+  - first:
+      213: -7241812160166775513
+    second: _dle_sheet_31
+  - first:
+      213: 3462855157819486841
+    second: _dle_sheet_32
+  - first:
+      213: -8891784709339179148
+    second: _dle_sheet_33
+  - first:
+      213: -8213572511422216486
+    second: _dle_sheet_34
+  - first:
+      213: 8605121060528993928
+    second: _dle_sheet_35
+  - first:
+      213: 5513435794012670962
+    second: _dle_sheet_36
+  - first:
+      213: 5166663487088639963
+    second: _dle_sheet_37
+  - first:
+      213: 4727875652404324991
+    second: _dle_sheet_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _dle_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1381
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b87b20c83c47e60800000000000000
+      internalID: 7959201447578930006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1381
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433142c2e4ea2e1f0800000000000000
+      internalID: -1017058915061066956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1380
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5b2f62824dd1b10800000000000000
+      internalID: 1953951082265884147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1380
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd9df28be02b4f10800000000000000
+      internalID: 2254932234316127710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1380
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb444274edad2d280800000000000000
+      internalID: -9019906455458528065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1380
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0581f33b495471f30800000000000000
+      internalID: 4546178853818538064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1379
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0405e4e9cd339f0800000000000000
+      internalID: -489805361976426284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1123
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545b1df97b4272ee0800000000000000
+      internalID: -1286018797512051387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1123
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fabdf70bae17a00800000000000000
+      internalID: 752640656527830889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1122
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beede07e5b62bdc0800000000000000
+      internalID: -3624716696714088780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1122
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ade02b92d9612f0800000000000000
+      internalID: -1002441064636818943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1122
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4105d7e5322e310800000000000000
+      internalID: 1432746520193537223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1122
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea94e9dc5fc05b620800000000000000
+      internalID: 2789149794082113966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1122
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c7b6c8b53176930800000000000000
+      internalID: 4136296066681896061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 865
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4548d7e8e238b40800000000000000
+      internalID: 5441243964319749374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 865
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9a24ea2aa03f0d0800000000000000
+      internalID: -3390354400655267379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 865
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0174c26bdadeac540800000000000000
+      internalID: 5029093264254060304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 865
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88805ec01f285f010800000000000000
+      internalID: 1222026845716023432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 866
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34f8deead6525e70800000000000000
+      internalID: 9102433295179248698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 866
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387acfe9f8267de40800000000000000
+      internalID: 5681117823938373507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 866
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6f46d6c8cf82b40800000000000000
+      internalID: 5415856231973975790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 609
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6e43a12c3e242c0800000000000000
+      internalID: -4448743059085793570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 609
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8b4cdc2b8db09b0800000000000000
+      internalID: -5112754689481066284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 609
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bd656449d381e60800000000000000
+      internalID: 7933158450657680197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 609
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c17499e37d2c0c0800000000000000
+      internalID: -4556843209086002127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 609
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f436445d5e49f0a0800000000000000
+      internalID: -6847355595687316236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 610
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7687a3ca336317640800000000000000
+      internalID: 5075897850584004711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 610
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a1371babb16e9f0800000000000000
+      internalID: -439633424967067112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 354
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb89ecf053b429c0800000000000000
+      internalID: -3952837412502533195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 354
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e7189ef72f38ce0800000000000000
+      internalID: -1404012027617116514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 354
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94091e35e6e2c7820800000000000000
+      internalID: 2917257710017810505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 355
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725b727853aef7b90800000000000000
+      internalID: -7241812160166775513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 355
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972b5764b688e0030800000000000000
+      internalID: 3462855157819486841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 355
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4779694eae80a9480800000000000000
+      internalID: -8891784709339179148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 356
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad604c77157830e80800000000000000
+      internalID: -8213572511422216486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 100
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886301e33088b6770800000000000000
+      internalID: 8605121060528993928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 100
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb8c0aa4a8a38c40800000000000000
+      internalID: 5513435794012670962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 100
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf36ed311da3b740800000000000000
+      internalID: 5166663487088639963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _dle_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 101
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a27c34bd9cc9140800000000000000
+      internalID: 4727875652404324991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: SpriteLibrary_Walk
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Walk
+    m_Hash: 765711723
+    m_CategoryList:
+    - m_Name: WalkFrame1
+      m_Hash: 763215960
+      m_Sprite: {fileID: 7349614634185829763, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame2
+      m_Hash: -1267428894
+      m_Sprite: {fileID: 8639912122219003742, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame3
+      m_Hash: -1015832204
+      m_Sprite: {fileID: 2265126517470002166, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame4
+      m_Hash: 1561801943
+      m_Sprite: {fileID: -2473024225437741522, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame5
+      m_Hash: 705692737
+      m_Sprite: {fileID: 2265126517470002166, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame6
+      m_Hash: -1290185221
+      m_Sprite: {fileID: 8639912122219003742, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame7
+      m_Hash: -1004640915
+      m_Sprite: {fileID: 7349614634185829763, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame8
+      m_Hash: 1419868412
+      m_Sprite: {fileID: 3342923032976260472, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame9
+      m_Hash: 598100074
+      m_Sprite: {fileID: 2345626310277997958, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame10
+      m_Hash: -1857651929
+      m_Sprite: {fileID: -3300291062064486946, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame11
+      m_Hash: -431928399
+      m_Sprite: {fileID: 2345626310277997958, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
+    - m_Name: WalkFrame12
+      m_Hash: 2135431691
+      m_Sprite: {fileID: 3342923032976260472, guid: f49ea7730e8adcc4d92623ac79d8e6fd, type: 3}
