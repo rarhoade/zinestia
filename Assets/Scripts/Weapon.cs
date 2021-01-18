@@ -25,8 +25,8 @@ public class Weapon : MonoBehaviour
     }
 
     void Update() {
-        if( Input.GetKeyDown( KeyCode.E ) ){
-            SetEquipped(true);
+        if( Input.GetKeyDown( KeyCode.E ) ) {
+            SetEquipped( true );
         }
     }
 
