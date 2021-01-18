@@ -9608,7 +9608,7 @@ MonoBehaviour:
   equipmentPanelGameObject: {fileID: 1555509879}
   toggleCharacterPanelKeys: 6300000069000000
   toggleInventoryKeys: 62000000
-  showAndHideMouse: 1
+  showAndHideMouse: 0
 --- !u!1 &1102826299
 GameObject:
   m_ObjectHideFlags: 0
@@ -11435,9 +11435,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4148500881839749089, guid: 7eba94fa8d7fbea4f8b08d67c99cec02, type: 3}
-      propertyPath: jsonSkillList
-      value: 
-      objectReference: {fileID: 4900000, guid: 5d62194c2dd493e49948c74f6252cb6f, type: 3}
+      propertyPath: Skills.Array.size
+      value: 48
+      objectReference: {fileID: 0}
     - target: {fileID: 7339204173376802688, guid: 7eba94fa8d7fbea4f8b08d67c99cec02, type: 3}
       propertyPath: Inventory
       value: 

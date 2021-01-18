@@ -653,7 +653,6 @@ GameObject:
   - component: {fileID: 7339204174753178264}
   - component: {fileID: 7339204174753178265}
   - component: {fileID: 7339204174753178267}
-  - component: {fileID: 7339204174753178266}
   - component: {fileID: 7339204173376802688}
   - component: {fileID: 1353763814}
   - component: {fileID: 4148500881839749089}
@@ -760,20 +759,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPoints: 10
---- !u!114 &7339204174753178266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7339204174753178268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feae0063936a8e947b5687625c7e6980, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jsonSkillList: {fileID: 4900000, guid: 5d62194c2dd493e49948c74f6252cb6f, type: 3}
-  Skills: []
 --- !u!114 &7339204173376802688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -831,8 +816,251 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feae0063936a8e947b5687625c7e6980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonSkillList: {fileID: 0}
-  Skills: []
+  jsonSkillList: {fileID: 4900000, guid: 5d62194c2dd493e49948c74f6252cb6f, type: 3}
+  Skills:
+  - BaseValue: 10
+    derivedStat: 
+    description: One's quickness and capacity to dodge
+    multiplier: 0.6
+    name: Agility
+  - BaseValue: 0
+    derivedStat: Charisma
+    description: One's skill in haggling and trade negotions. Affects one's understanding
+      of economics
+    multiplier: 0.25
+    name: Barter
+  - BaseValue: 10
+    derivedStat: 
+    description: One's understanding and talent and crafting through alchemy
+    multiplier: 0.6
+    name: Alchemy
+  - BaseValue: 10
+    derivedStat: 
+    description: One's soft skills, ability to communicate and talk to people
+    multiplier: 0.25
+    name: Persuasion
+  - BaseValue: 10
+    derivedStat: 
+    description: One's ability to use and understand technology
+    multiplier: 0.3
+    name: Tech
+  - BaseValue: 10
+    derivedStat: 
+    description: One's physical brawn and constitution
+    multiplier: 0.5
+    name: Constitution
+  - BaseValue: 10
+    derivedStat: 
+    description: One's ability and aptitude with using Melee Weapons
+    multiplier: 0.75
+    name: Melee Weapons
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.6
+    name: Small Guns
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.25
+    name: Big Guns
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Throwing
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.2
+    name: Perception
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Survival
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Luck
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Lockpick
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Stealth
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Medicine
+  - BaseValue: 10
+    derivedStat: 
+    description: One's quickness and capacity to dodge
+    multiplier: 0.6
+    name: Agility
+  - BaseValue: 0
+    derivedStat: Charisma
+    description: One's skill in haggling and trade negotions. Affects one's understanding
+      of economics
+    multiplier: 0.25
+    name: Barter
+  - BaseValue: 10
+    derivedStat: 
+    description: One's understanding and talent and crafting through alchemy
+    multiplier: 0.6
+    name: Alchemy
+  - BaseValue: 10
+    derivedStat: 
+    description: One's soft skills, ability to communicate and talk to people
+    multiplier: 0.25
+    name: Persuasion
+  - BaseValue: 10
+    derivedStat: 
+    description: One's ability to use and understand technology
+    multiplier: 0.3
+    name: Tech
+  - BaseValue: 10
+    derivedStat: 
+    description: One's physical brawn and constitution
+    multiplier: 0.5
+    name: Constitution
+  - BaseValue: 10
+    derivedStat: 
+    description: One's ability and aptitude with using Melee Weapons
+    multiplier: 0.75
+    name: Melee Weapons
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.6
+    name: Small Guns
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.25
+    name: Big Guns
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Throwing
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.2
+    name: Perception
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Survival
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Luck
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Lockpick
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Stealth
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Medicine
+  - BaseValue: 10
+    derivedStat: 
+    description: One's quickness and capacity to dodge
+    multiplier: 0.6
+    name: Agility
+  - BaseValue: 0
+    derivedStat: Charisma
+    description: One's skill in haggling and trade negotions. Affects one's understanding
+      of economics
+    multiplier: 0.25
+    name: Barter
+  - BaseValue: 10
+    derivedStat: 
+    description: One's understanding and talent and crafting through alchemy
+    multiplier: 0.6
+    name: Alchemy
+  - BaseValue: 10
+    derivedStat: 
+    description: One's soft skills, ability to communicate and talk to people
+    multiplier: 0.25
+    name: Persuasion
+  - BaseValue: 10
+    derivedStat: 
+    description: One's ability to use and understand technology
+    multiplier: 0.3
+    name: Tech
+  - BaseValue: 10
+    derivedStat: 
+    description: One's physical brawn and constitution
+    multiplier: 0.5
+    name: Constitution
+  - BaseValue: 10
+    derivedStat: 
+    description: One's ability and aptitude with using Melee Weapons
+    multiplier: 0.75
+    name: Melee Weapons
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.6
+    name: Small Guns
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.25
+    name: Big Guns
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Throwing
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.2
+    name: Perception
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Survival
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Luck
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Lockpick
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Stealth
+  - BaseValue: 10
+    derivedStat: 
+    description: 
+    multiplier: 0.3
+    name: Medicine
 --- !u!1 &7339204174823964728
 GameObject:
   m_ObjectHideFlags: 0
