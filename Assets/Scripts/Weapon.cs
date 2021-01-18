@@ -21,7 +21,7 @@ public class Weapon : MonoBehaviour
 
 
     void Start() {
-        //SkillModifier = GetComponentInParent<Character>().skillList.GetSkill("Melee Weapons");
+        SkillModifier = GetComponentInParent<SkillList>().GetSkill(DerivedSkill);
     }
 
     void Update() {
@@ -47,7 +47,7 @@ public class Weapon : MonoBehaviour
         if( equipped == true ) {
             modifiedMinDamage = SkillModifier.ApplySkillToStat(BaseDamageMin);
             modifiedMaxDamage = SkillModifier.ApplySkillToStat(BaseDamageMax);
-            //GetComponentInParent<Character>().CheckPerks(PerkTypes.WeaponDamageModifier, this.gameObject);
+            GetComponentInParent<Character>().CheckPerks(PerkTypes.WeaponDamageModifier, this.gameObject);
         } else {
             modifiedMinDamage = 0;
             modifiedMaxDamage = 0;
