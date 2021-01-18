@@ -26,7 +26,7 @@ namespace Kryz.CharacterStats
         }
 
         public float ApplySkillToStat(float inVal) {
-            return inVal * BaseValue * multiplier;
+            return inVal * this.CalculateFinalValue() * multiplier;
         }
     }
 }
