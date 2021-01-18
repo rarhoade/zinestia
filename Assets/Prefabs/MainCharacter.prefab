@@ -656,6 +656,7 @@ GameObject:
   - component: {fileID: 7339204174753178266}
   - component: {fileID: 7339204173376802688}
   - component: {fileID: 1353763814}
+  - component: {fileID: 4148500881839749089}
   m_Layer: 0
   m_Name: MainCharacter
   m_TagString: Player
@@ -802,6 +803,7 @@ MonoBehaviour:
   draggableItem: {fileID: 0}
   dropItemArea: {fileID: 0}
   reallyDropItemDialog: {fileID: 0}
+  Skills: {fileID: 0}
   equipmentController: {fileID: 0}
 --- !u!114 &1353763814
 MonoBehaviour:
@@ -817,6 +819,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hand: {fileID: 7339204174417967280}
   equippedWeapon: {fileID: 0}
+--- !u!114 &4148500881839749089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339204174753178268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feae0063936a8e947b5687625c7e6980, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonSkillList: {fileID: 0}
+  Skills: []
 --- !u!1 &7339204174823964728
 GameObject:
   m_ObjectHideFlags: 0
