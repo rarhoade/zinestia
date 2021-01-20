@@ -15,10 +15,8 @@ namespace Kryz.CharacterStats
         void LoadSkillsFromJson() {
             var jsonString = jsonSkillList.text;
             CharacterSkill[] skills = JsonHelper.getJsonArray<CharacterSkill>(jsonString);
-            //Debug.Log(skills);
             foreach(CharacterSkill skill in skills)
             {
-                //Debug.Log(skill.name);
                 Skills.Add(skill);
             }
         }
