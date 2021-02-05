@@ -44,7 +44,7 @@ public class SimpleAIMovement : MonoBehaviour
     }
 
     void HandleIdle(){
-        if(vectorToTarget.magnitude <= attackRange * 10){
+        if (vectorToTarget.magnitude <= attackRange * 10){
             state = State.Run;
         }
     }
@@ -53,7 +53,7 @@ public class SimpleAIMovement : MonoBehaviour
         GetComponentInChildren<Animator>().SetTrigger("Attack");
         StartCoroutine("EnableHitBox");
         agent.SetDestination(target.position);
-        if(vectorToTarget.magnitude >= attackRange){
+        if (vectorToTarget.magnitude >= attackRange){
             state = State.Run;
         }
     }
@@ -64,7 +64,7 @@ public class SimpleAIMovement : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.fixedDeltaTime * RotationSpeed);
         GetComponentInChildren<Animator>().SetTrigger("Run");
         agent.SetDestination(target.position);
-        if(vectorToTarget.magnitude < attackRange){
+        if (vectorToTarget.magnitude < attackRange){
             state = State.Attack;
         }
     }

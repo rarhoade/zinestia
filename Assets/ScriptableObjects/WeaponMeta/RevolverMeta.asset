@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28bd2ccb80fef74b8023849e23919d8, type: 3}
+  m_Name: RevolverMeta
+  m_EditorClassIdentifier: 
+  type: 0
+  TriggerKeyword: 1
+  weaponAmmunition: {fileID: 11400000, guid: 9a4377a71d74f4244824575ace34d8cb, type: 2}
+  revolverBullet: {fileID: 2161694233376193264, guid: 0af7854745dc24346ae0721055fbdca2, type: 3}
+  attackCooldown: 0

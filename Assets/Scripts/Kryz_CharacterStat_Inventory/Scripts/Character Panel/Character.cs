@@ -333,7 +333,7 @@ public class Character : MonoBehaviour
 
 	public void CheckPerks( PerkTypes perkType, GameObject contextObj ) {
 		foreach(Perk perk in PerkList) {
-			if(perk.Cases.Contains(perkType)) {
+			if (perk.Cases.Contains(perkType)) {
 				perk.ApplyPerk(perkType, contextObj);
 			}
 		}

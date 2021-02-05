@@ -102,7 +102,7 @@
         "description": "",
         "derivedStat": "",
         "multiplier": 0.3,
-        "BaseValue": 10 
+        "BaseValue": 10
     },
     {
         "name": "Medicine",

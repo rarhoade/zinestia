@@ -14,15 +14,15 @@ public class RangedWeapon : Weapon
         source = GetComponent<CinemachineImpulseSource>();
     }
 
-    public override void Attack()
+    /*public override void Attack()
     {
-        if(canAttack) {
+        if (canAttack) {
             GetComponent<Animator>().SetTrigger("Attack");
             StartCoroutine("AttackCooldown", CooldownTime);
             source.GenerateImpulse();
             var bullet = Instantiate(Projectile, FirePoint.position, Quaternion.Euler(transform.parent.rotation.eulerAngles));
             Destroy(bullet, 1.0f);
         }
-    }
+    }*/
 
 }

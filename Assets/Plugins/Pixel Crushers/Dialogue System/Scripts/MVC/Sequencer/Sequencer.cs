@@ -2098,7 +2098,7 @@ namespace PixelCrushers.DialogueSystem
                     {
                         standardDialogueUI.conversationUIElements.standardSubtitleControls.OpenSubtitlePanelLikeStart(subtitlePanelNumber);
                     }
-                    else if(string.Equals("close", mode, StringComparison.OrdinalIgnoreCase))
+                    else if (string.Equals("close", mode, StringComparison.OrdinalIgnoreCase))
                     {
                         panel.Close();
                     }

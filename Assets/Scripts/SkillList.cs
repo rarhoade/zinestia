@@ -21,7 +21,11 @@ namespace Kryz.CharacterStats
             }
         }
 
+        void OnValidate() {
+            Skills = new List<CharacterSkill>();
+        }
         void Awake() {
+            Skills = new List<CharacterSkill>();
             LoadSkillsFromJson();
         }
 

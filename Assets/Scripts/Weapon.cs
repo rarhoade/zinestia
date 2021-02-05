@@ -1,13 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Kryz.CharacterStats;
 
+
+
 public class Weapon : MonoBehaviour
 {
     protected bool equipped;
     protected bool canAttack = true;
-    public float CooldownTime = 0.1f;
     public float BaseDamageMin;
     public float BaseDamageMax;
     [SerializeField]
@@ -18,16 +20,11 @@ public class Weapon : MonoBehaviour
     [SerializeField]
     protected CharacterSkill SkillModifier;
     public string DerivedSkill;
-
+    public delegate void WeaponAttack(GameObject gameObject);
+    public WeaponAttack myWeaponAttack;
 
     void Start() {
         SkillModifier = GetComponentInParent<SkillList>().GetSkill(DerivedSkill);
-    }
-
-    void Update() {
-        if( Input.GetKeyDown( KeyCode.E ) ) {
-            SetEquipped( true );
-        }
     }
 
     public void Activate() {
@@ -44,7 +41,7 @@ public class Weapon : MonoBehaviour
     }
 
     public void CalculateDamageRange() {
-        if( equipped == true ) {
+        if ( equipped == true ) {
             modifiedMinDamage = SkillModifier.ApplySkillToStat(BaseDamageMin);
             modifiedMaxDamage = SkillModifier.ApplySkillToStat(BaseDamageMax);
             GetComponentInParent<Character>().CheckPerks(PerkTypes.WeaponDamageModifier, this.gameObject);
@@ -64,15 +61,8 @@ public class Weapon : MonoBehaviour
     }
 
     public float GetDamage() {
-        return Random.Range(modifiedMinDamage, modifiedMaxDamage);
+        return UnityEngine.Random.Range(modifiedMinDamage, modifiedMaxDamage);
     }    
-
-    public virtual void Attack() {
-        if(canAttack) {
-            GetComponent<Animator>().SetTrigger("Attack");
-            StartCoroutine("AttackCooldown", CooldownTime);
-        }
-    }
 
     public virtual IEnumerator AttackCooldown(float time) {
         canAttack = false;

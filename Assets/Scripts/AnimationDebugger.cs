@@ -16,16 +16,16 @@ public class AnimationDebugger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.U)){
+        if (Input.GetKeyDown(KeyCode.U)){
             animator.SetTrigger("Hit");
         }
-        else if(Input.GetKeyDown(KeyCode.Y)){
+        else if (Input.GetKeyDown(KeyCode.Y)){
             animator.SetTrigger("Attack");
         }
-        else if(Input.GetKeyDown(KeyCode.H)){
+        else if (Input.GetKeyDown(KeyCode.H)){
             animator.SetTrigger("Death");
         }
-        else if(Input.GetKeyDown(KeyCode.T)){
+        else if (Input.GetKeyDown(KeyCode.T)){
             animator.SetTrigger("Run");
         }
     }

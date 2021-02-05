@@ -19,7 +19,7 @@ public class FlickeringLight : MonoBehaviour
         while (true) {
             for(int i = 0; i < lights.Length * flickerIterations; i++){
                 yield return new WaitForSeconds(0.015f);
-                if(prevLight)
+                if (prevLight)
                     prevLight.enabled = false;
                 prevLight = lights[i/flickerIterations];
                 prevLight.enabled = true; 

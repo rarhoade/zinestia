@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c896565b734b104f8c3c04bd3e7e7f8, type: 3}
   m_Name: Revolver
   m_EditorClassIdentifier: 
-  id: 36325ca35805a3e4d91cc89458f9174a
+  id: 04cdc8bc60b2d6249a907c6ed535dc19
   ItemName: Revolver
-  Icon: {fileID: -386640165483854157, guid: bad75137bb0b5984ba99ec21b7d9abbf, type: 3}
+  Icon: {fileID: 5409467117730349290, guid: 2cbd845260c534143b872bea6514a8fc, type: 3}
   MaximumStacks: 1
   StrengthBonus: 0
   AgilityBonus: 0
@@ -24,5 +24,7 @@ MonoBehaviour:
   AgilityPercentBonus: 0
   IntelligencePercentBonus: 0
   VitalityPercentBonus: 0
-  EquipmentType: 4
-  GamePrefab: {fileID: 8251039449137920222, guid: 091d3639a41b7e94bbc832fe8fe68705, type: 3}
+  EquipmentType: 5
+  GamePrefab: {fileID: 579498777788573065, guid: 48a431815114c58479e46fb434a001f2, type: 3}
+  weaponMeta: {fileID: 11400000, guid: c42c2764a775df64cbb1c6957a71d070, type: 2}
+  weaponAmmunition: {fileID: 11400000, guid: 9a4377a71d74f4244824575ace34d8cb, type: 2}

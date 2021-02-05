@@ -25,19 +25,19 @@ public class DoorTrigger : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.tag == "Player"){
+        if (other.tag == "Player"){
             canInteract = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other) {
-        if(other.tag == "Player"){
+        if (other.tag == "Player"){
             canInteract = false;
         }
     }
 
     void Update(){
-        if(canInteract && Input.GetKeyDown(KeyCode.E)){
+        if (canInteract && Input.GetKeyDown(KeyCode.E)){
             switch(state){
                 case State.Open:
                     state = State.Closed;

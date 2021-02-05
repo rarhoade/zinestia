@@ -31,39 +31,6 @@ Transform:
   m_Father: {fileID: 7339204174823964729}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5845004091316965385
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5078248524708415645}
-  m_Layer: 0
-  m_Name: Sprites
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5078248524708415645
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5845004091316965385}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7339204173912914176}
-  - {fileID: 7339204172999455290}
-  - {fileID: 7339204174288415062}
-  m_Father: {fileID: 7339204174825717782}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7339204172990003737
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,8 +140,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
-  m_Father: {fileID: 5078248524708415645}
-  m_RootOrder: 1
+  m_Father: {fileID: 7339204174825717782}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7339204172999455291
 SpriteRenderer:
@@ -215,7 +182,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -329,7 +296,7 @@ Transform:
   m_GameObject: {fileID: 7339204173777546322}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5000001, y: 1.5000001, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 7887179570683207637}
   m_RootOrder: 0
@@ -446,200 +413,6 @@ MonoBehaviour:
   spriteLibraryAssetWalking: {fileID: 11400000, guid: 138fe2bcde24645499bf9ea11e53bbbc, type: 2}
   spriteLibrary: {fileID: 0}
   altSprite: {fileID: 11400000, guid: e8189611e0a96bc468e6dc9d150f3353, type: 2}
---- !u!1 &7339204173912914183
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7339204173912914176}
-  - component: {fileID: 7339204173912914177}
-  m_Layer: 0
-  m_Name: DirectionMarker
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7339204173912914176
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7339204173912914183}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1822, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5078248524708415645}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7339204173912914177
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7339204173912914183}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &7339204174288415061
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7339204174288415062}
-  - component: {fileID: 7339204174288415063}
-  m_Layer: 0
-  m_Name: Body
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7339204174288415062
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7339204174288415061}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 5078248524708415645}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7339204174288415063
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7339204174288415061}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &7339204174417967287
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7339204174417967280}
-  m_Layer: 0
-  m_Name: Hand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7339204174417967280
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7339204174417967287}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 0, z: 0}
-  m_LocalScale: {x: -2, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 7339204174825717782}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7339204174753178268
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,13 +511,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40038fd03b5a91140bf6894d970f6997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 0}
-  Hand: {fileID: 7339204174417967287}
+  weaponAnimator: {fileID: 567385963779806122}
+  Hand: {fileID: 5297811962083794657}
   horizontal: 0
   vertical: 0
   angle: 0
   Legs: {fileID: 7339204174823964728}
   Torso: {fileID: 7339204174825717781}
+  attackAnimationTrigger: 
+  attackPoseTrigger: 
   runSpeed: 2
 --- !u!114 &7339204174753178267
 MonoBehaviour:
@@ -788,8 +563,8 @@ MonoBehaviour:
   draggableItem: {fileID: 0}
   dropItemArea: {fileID: 0}
   reallyDropItemDialog: {fileID: 0}
-  Skills: {fileID: 0}
-  equipmentController: {fileID: 0}
+  Skills: {fileID: 4148500881839749089}
+  equipmentController: {fileID: 1353763814}
 --- !u!114 &1353763814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,8 +577,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b67e812b56391d64f95409b087313798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hand: {fileID: 7339204174417967280}
-  equippedWeapon: {fileID: 0}
+  Hand: {fileID: 5297811962083794662}
+  equippedWeapon: {fileID: 4725599973255725088}
+  equipmentLibrary: {fileID: 5757477759901430904}
+  armorLibrary: {fileID: 825762190931265546}
+  characterWeapon: {fileID: 4858405151289519509}
+  animationTrigger: 
 --- !u!114 &4148500881839749089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,250 +596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jsonSkillList: {fileID: 4900000, guid: 5d62194c2dd493e49948c74f6252cb6f, type: 3}
-  Skills:
-  - BaseValue: 10
-    derivedStat: 
-    description: One's quickness and capacity to dodge
-    multiplier: 0.6
-    name: Agility
-  - BaseValue: 0
-    derivedStat: Charisma
-    description: One's skill in haggling and trade negotions. Affects one's understanding
-      of economics
-    multiplier: 0.25
-    name: Barter
-  - BaseValue: 10
-    derivedStat: 
-    description: One's understanding and talent and crafting through alchemy
-    multiplier: 0.6
-    name: Alchemy
-  - BaseValue: 10
-    derivedStat: 
-    description: One's soft skills, ability to communicate and talk to people
-    multiplier: 0.25
-    name: Persuasion
-  - BaseValue: 10
-    derivedStat: 
-    description: One's ability to use and understand technology
-    multiplier: 0.3
-    name: Tech
-  - BaseValue: 10
-    derivedStat: 
-    description: One's physical brawn and constitution
-    multiplier: 0.5
-    name: Constitution
-  - BaseValue: 10
-    derivedStat: 
-    description: One's ability and aptitude with using Melee Weapons
-    multiplier: 0.75
-    name: Melee Weapons
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.6
-    name: Small Guns
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.25
-    name: Big Guns
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Throwing
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.2
-    name: Perception
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Survival
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Luck
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Lockpick
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Stealth
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Medicine
-  - BaseValue: 10
-    derivedStat: 
-    description: One's quickness and capacity to dodge
-    multiplier: 0.6
-    name: Agility
-  - BaseValue: 0
-    derivedStat: Charisma
-    description: One's skill in haggling and trade negotions. Affects one's understanding
-      of economics
-    multiplier: 0.25
-    name: Barter
-  - BaseValue: 10
-    derivedStat: 
-    description: One's understanding and talent and crafting through alchemy
-    multiplier: 0.6
-    name: Alchemy
-  - BaseValue: 10
-    derivedStat: 
-    description: One's soft skills, ability to communicate and talk to people
-    multiplier: 0.25
-    name: Persuasion
-  - BaseValue: 10
-    derivedStat: 
-    description: One's ability to use and understand technology
-    multiplier: 0.3
-    name: Tech
-  - BaseValue: 10
-    derivedStat: 
-    description: One's physical brawn and constitution
-    multiplier: 0.5
-    name: Constitution
-  - BaseValue: 10
-    derivedStat: 
-    description: One's ability and aptitude with using Melee Weapons
-    multiplier: 0.75
-    name: Melee Weapons
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.6
-    name: Small Guns
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.25
-    name: Big Guns
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Throwing
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.2
-    name: Perception
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Survival
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Luck
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Lockpick
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Stealth
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Medicine
-  - BaseValue: 10
-    derivedStat: 
-    description: One's quickness and capacity to dodge
-    multiplier: 0.6
-    name: Agility
-  - BaseValue: 0
-    derivedStat: Charisma
-    description: One's skill in haggling and trade negotions. Affects one's understanding
-      of economics
-    multiplier: 0.25
-    name: Barter
-  - BaseValue: 10
-    derivedStat: 
-    description: One's understanding and talent and crafting through alchemy
-    multiplier: 0.6
-    name: Alchemy
-  - BaseValue: 10
-    derivedStat: 
-    description: One's soft skills, ability to communicate and talk to people
-    multiplier: 0.25
-    name: Persuasion
-  - BaseValue: 10
-    derivedStat: 
-    description: One's ability to use and understand technology
-    multiplier: 0.3
-    name: Tech
-  - BaseValue: 10
-    derivedStat: 
-    description: One's physical brawn and constitution
-    multiplier: 0.5
-    name: Constitution
-  - BaseValue: 10
-    derivedStat: 
-    description: One's ability and aptitude with using Melee Weapons
-    multiplier: 0.75
-    name: Melee Weapons
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.6
-    name: Small Guns
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.25
-    name: Big Guns
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Throwing
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.2
-    name: Perception
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Survival
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Luck
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Lockpick
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Stealth
-  - BaseValue: 10
-    derivedStat: 
-    description: 
-    multiplier: 0.3
-    name: Medicine
+  Skills: []
 --- !u!1 &7339204174823964728
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,9 +655,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7339204174417967280}
-  - {fileID: 5078248524708415645}
+  - {fileID: 7339204172999455290}
   - {fileID: 5925647837082804464}
+  - {fileID: 8163546901479161872}
   m_Father: {fileID: 7339204174753178269}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1197,6 +733,19 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &245820976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8163546901479161873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7cc0a6fda6d7434ba76bdf9bdb0e348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 4725599973255725088}
 --- !u!1 &8668990018852439692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,5 +777,158 @@ Transform:
   - {fileID: 7339204173674982564}
   - {fileID: 7339204172990003738}
   m_Father: {fileID: 7339204174825717782}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3197428908285683286
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7339204174825717782}
+    m_Modifications:
+    - target: {fileID: 2642843042626644019, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_labelHash
+      value: 3.117501e+36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822137319891856988, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_SpriteLibraryAsset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4005204868521810429, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4005204868521810429, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4454362461216080632, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4454362461216080632, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201126322292, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a6427fa24e9318343950be6914ecb48b, type: 3}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707322201273984583, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_Name
+      value: BodySection
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185817709203690030, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+      propertyPath: m_SpriteLibraryAsset
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5105983639369019110, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+--- !u!114 &825762190931265546 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2822137319891856988, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5297811962083794657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7339204174417967287, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5297811962083794662 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7339204174417967280, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4858405151289519509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8012758161803234243, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4725599973255725088 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7911479317181113974, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858405151289519509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5c61cdeb2afb849b6e2ad60f5e1293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5757477759901430904 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7185817709203690030, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8163546901479161873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6707322201273984583, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8163546901479161872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6707322201273984582, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &567385963779806122 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3134591248137827836, guid: bdf8d2fe7da741b409f3902a0b42958e, type: 3}
+  m_PrefabInstance: {fileID: 3197428908285683286}
+  m_PrefabAsset: {fileID: 0}

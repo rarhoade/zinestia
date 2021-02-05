@@ -5,6 +5,7 @@ public enum EquipmentType
 {
 	Helmet,
 	Chest,
+	BodyArmor,
 	Gloves,
 	Boots,
 	Weapon1,
@@ -29,6 +30,8 @@ public class EquippableItem : Item
 	public EquipmentType EquipmentType;
 
 	public GameObject GamePrefab;
+	public WeaponActionMeta weaponMeta;
+	public Item weaponAmmunition;
 
 	public override Item GetCopy()
 	{

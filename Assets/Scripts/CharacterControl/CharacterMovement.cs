@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public GameObject weapon;
+    public Animator weaponAnimator;
     public GameObject Hand;
     [SerializeField] float horizontal, vertical, angle;
     Rigidbody2D m_Rigidbody2D;
     public GameObject Legs;
     public GameObject Torso;
     Animator legAnimator;
+    public string attackAnimationTrigger;
+    public string attackPoseTrigger;
 
     enum State 
     {
@@ -32,7 +34,7 @@ public class CharacterMovement : MonoBehaviour
     void UpdateDirectionInput(){
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
-        if(horizontal == 0 && vertical == 0){
+        if (horizontal == 0 && vertical == 0){
             legAnimator.SetBool("Walking", false);
         } else {
             legAnimator.SetBool("Walking", true);
@@ -46,7 +48,7 @@ public class CharacterMovement : MonoBehaviour
     void UpdateDirectionInput(float x, float y){
         horizontal = x;
         vertical = y;
-        if(x == 0 && y == 0){
+        if (x == 0 && y == 0){
             legAnimator.SetBool("Walking", false);
         } else {
             legAnimator.SetBool("Walking", true);
@@ -58,23 +60,18 @@ public class CharacterMovement : MonoBehaviour
         Legs.transform.eulerAngles = new Vector3(0, 0, angleLerp);
     } 
 
-    // Update is called once per frame
     void LateUpdate()
     {
         //direction to mouse
         Vector3 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(Hand.transform.position); 
-        if(Input.GetButton("Fire2") && weapon){ 
-            weapon.SetActive(true);
-            UpdateDirectionInput(0, 0);
-            if (Input.GetButton("Fire1"))
-            {
-                if(weapon.GetComponent<Weapon>()){
-                    weapon.GetComponent<Weapon>().Attack();
-                }
-            } 
-        } else {
-            UpdateDirectionInput();
-        }
+        //if input for attack and attackAnimationTriggerSet
+        if (Input.GetButtonDown("Fire1") && attackAnimationTrigger != null)
+        {
+            //set trigger for weapon animation
+            weaponAnimator.SetTrigger(attackAnimationTrigger);
+        } 
+        //Move freely
+        UpdateDirectionInput();
         UpdateRotation(dir);
     }
 
@@ -86,7 +83,7 @@ public class CharacterMovement : MonoBehaviour
     } 
 
     void FixedUpdate(){
-        if(horizontal != 0 || vertical != 0)
+        if (horizontal != 0 || vertical != 0)
             m_Rigidbody2D.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
         else
             m_Rigidbody2D.velocity = Vector2.zero;

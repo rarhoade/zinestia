@@ -23,17 +23,17 @@ public class PlayerHealth : MonoBehaviour
     bool canTakeDamage;
 
     public void TakeDamage( int damage ) {
-        if(canTakeDamage){
+        if (canTakeDamage){
             healthPoints -= damage;
             StartCoroutine("HealthCoolDown", 3f);
-            if(healthPoints <= 0){
+            if (healthPoints <= 0){
                 Debug.Log("DED");
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag == "Enemy") {
+        if (other.gameObject.tag == "Enemy") {
             TakeDamage(1);
         }
     }

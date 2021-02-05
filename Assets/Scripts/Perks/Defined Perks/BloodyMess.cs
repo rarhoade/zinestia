@@ -11,7 +11,7 @@ public class BloodyMess : Perk
     public override void ApplyPerk(PerkTypes perkContext, GameObject contextObj)
     {
         base.ApplyPerk(perkContext, contextObj);
-        if(perkContext == PerkTypes.WeaponDamageModifier) {
+        if (perkContext == PerkTypes.WeaponDamageModifier) {
             contextObj.GetComponent<Weapon>().ApplyDamageMultiplier(1.05f);
         }
     }

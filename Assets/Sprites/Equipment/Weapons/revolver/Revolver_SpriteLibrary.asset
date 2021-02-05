@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Revolver_SpriteLibrary
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: RevolverShot
+    m_Hash: 188548630
+    m_CategoryList:
+    - m_Name: RevovlerShot_0
+      m_Hash: -1497718311
+      m_Sprite: {fileID: 7640650796854631287, guid: 2cbd845260c534143b872bea6514a8fc, type: 3}
+    - m_Name: RevovlerShot_1
+      m_Hash: -776105649
+      m_Sprite: {fileID: -8082051875093813968, guid: 2cbd845260c534143b872bea6514a8fc, type: 3}
+    - m_Name: RevovlerShot_2
+      m_Hash: 1219805429
+      m_Sprite: {fileID: 6887130170327481842, guid: 2cbd845260c534143b872bea6514a8fc, type: 3}
+    - m_Name: RevovlerShot_3
+      m_Hash: 1068757091
+      m_Sprite: {fileID: 7640650796854631287, guid: 2cbd845260c534143b872bea6514a8fc, type: 3}
+    - m_Name: RevovlerShot_4
+      m_Hash: -1579719232
+      m_Sprite: {fileID: -5900290346063222914, guid: 2cbd845260c534143b872bea6514a8fc, type: 3}

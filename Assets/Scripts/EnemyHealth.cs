@@ -20,9 +20,9 @@ public class EnemyHealth : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag == "PlayerWeapon") {
-            Health -= other.gameObject.GetComponent<Weapon>().GetDamage();
-            if( Health <= 0 ) {
+        if (other.gameObject.tag == "PlayerWeapon") {
+            Health -= other.gameObject.GetComponentInParent<Weapon>().GetDamage();
+            if ( Health <= 0 ) {
                 animator.SetTrigger( "Death" );
                 GetComponent<BoxCollider2D>().enabled = false;
             } else {

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f098b1f861fd94bb6f09f84fe87404, type: 3}
+  m_Name: _357 Bullet
+  m_EditorClassIdentifier: 
+  id: 9a4377a71d74f4244824575ace34d8cb
+  ItemName: .357 Bullet
+  Icon: {fileID: 5056628667063805970, guid: f3b28388bd8b7b54e8cc2a6ca4998672, type: 3}
+  MaximumStacks: 999

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: LeatherArmor_SpriteLibrary
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Swing
+    m_Hash: 551000158
+    m_CategoryList:
+    - m_Name: Swing_0
+      m_Hash: -2133907277
+      m_Sprite: {fileID: -1026029375201757275, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_1
+      m_Hash: -137881563
+      m_Sprite: {fileID: 4642130700782536674, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_2
+      m_Hash: 1858161055
+      m_Sprite: {fileID: -6494732500426751202, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_3
+      m_Hash: 432437513
+      m_Sprite: {fileID: 5396138965459029070, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_4
+      m_Hash: -2019365718
+      m_Sprite: {fileID: -6970425988413420009, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_5
+      m_Hash: -257565636
+      m_Sprite: {fileID: 4233017599293629824, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_6
+      m_Hash: 1772916102
+      m_Sprite: {fileID: -6444218869444690390, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_7
+      m_Hash: 514571536
+      m_Sprite: {fileID: 2895928640108021340, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_8
+      m_Hash: -1911250815
+      m_Sprite: {fileID: -2833451909478907507, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_9
+      m_Hash: -116158441
+      m_Sprite: {fileID: 2976946382848893626, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}
+    - m_Name: Swing_10
+      m_Hash: -1087847554
+      m_Sprite: {fileID: 7650682460342567955, guid: 272bf35b5b6604e4ba2c767eecb6d4cd, type: 3}

@@ -15,7 +15,7 @@ namespace Kryz.CharacterStats
 		protected float _value;
 		public virtual float Value {
 			get {
-				if(isDirty || lastBaseValue != BaseValue) {
+				if (isDirty || lastBaseValue != BaseValue) {
 					lastBaseValue = BaseValue;
 					_value = CalculateFinalValue();
 					isDirty = false;

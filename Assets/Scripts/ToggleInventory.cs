@@ -8,7 +8,7 @@ public class ToggleInventory : MonoBehaviour
     public GameObject InventoryPanel;
     void Update()
     {
-        if( Input.GetKeyDown(KeyCode.I) ) {
+        if ( Input.GetKeyDown(KeyCode.I) ) {
             InventoryPanel.SetActive(!InventoryPanel.activeSelf);
         }
     }

@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 114709651192873794}
   - component: {fileID: 114037786918941898}
   m_Layer: 5
-  m_Name: Accessory2 Slot
+  m_Name: Accessory1 Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 114689911708978424}
   - component: {fileID: 114004443625913976}
   m_Layer: 5
-  m_Name: Weapon2 Slot
+  m_Name: Weapon1 Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2161,7 +2161,7 @@ GameObject:
   - component: {fileID: 114619767453555126}
   - component: {fileID: 114309221018764872}
   m_Layer: 5
-  m_Name: Accessory1 Slot
+  m_Name: Weapon2 Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6021,7 +6021,7 @@ GameObject:
   - component: {fileID: 114975685571209480}
   - component: {fileID: 114381658231555762}
   m_Layer: 5
-  m_Name: Weapon1 Slot
+  m_Name: Boots Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
