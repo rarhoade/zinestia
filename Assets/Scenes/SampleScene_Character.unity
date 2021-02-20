@@ -7112,6 +7112,7 @@ MonoBehaviour:
   togglePauseMenuKeys: 1b000000
   showAndHideMouse: 0
   enableMenuInput: 1
+  loadSaveMenuInput: 0
 --- !u!1 &919279383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1582689742557740, guid: 03bede6e5ab49714d967c15162f59a26, type: 3}
@@ -31366,6 +31367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscapeGameMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7817647700421106532, guid: f0d7aa54102ea84488b4ef5a802ea51d, type: 3}
+      propertyPath: PauseMenuUIElements
+      value: 
+      objectReference: {fileID: 724915084}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0d7aa54102ea84488b4ef5a802ea51d, type: 3}
 --- !u!1001 &7269450759458443725
