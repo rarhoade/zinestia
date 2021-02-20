@@ -1,40 +1,45 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    #region Singleton;
-    public static PlayerHealth playerHealth;
+    public static Action<int> OnDamageReceived;
+    public static Action<int, int> OnSceneInitialize;
+    public UIPlayerHealthBar uIPlayerHealthBar;
     
     void Awake() {
-        if (playerHealth != null) {
-            Debug.LogWarning("More than one Player Health");
-            return;
-        }
-        playerHealth = this;
         canTakeDamage = true;
     }
 
-    #endregion
-    
+    void Start() {
+        OnSceneInitialize(healthPoints, maxHealth);
+    }
+
+    void Update() {
+        if(Input.GetKeyDown(KeyCode.N)) {
+            TakeDamage(1);
+        }
+    }
+
     [SerializeField]
     int healthPoints;
+    [SerializeField]
+    int maxHealth;
+    [SerializeField]
     bool canTakeDamage;
 
     public void TakeDamage( int damage ) {
         if (canTakeDamage){
             healthPoints -= damage;
+            if (OnDamageReceived != null) {
+                OnDamageReceived(healthPoints);
+            }
             StartCoroutine("HealthCoolDown", 3f);
             if (healthPoints <= 0){
                 Debug.Log("DED");
             }
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.tag == "Enemy") {
-            TakeDamage(1);
         }
     }
 

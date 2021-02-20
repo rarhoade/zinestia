@@ -8,6 +8,9 @@ using Kryz.CharacterStats;
 
 public class Weapon : MonoBehaviour
 {
+    public Character character;
+    public Animator weaponAnimator;
+    public string attackAnimationTrigger;
     protected bool equipped;
     protected bool canAttack = true;
     public float BaseDamageMin;
@@ -22,9 +25,40 @@ public class Weapon : MonoBehaviour
     public string DerivedSkill;
     public delegate void WeaponAttack(GameObject gameObject);
     public WeaponAttack myWeaponAttack;
+    public EquippableItem weaponItem;
 
+    public static Action<EquippableItem> OnWeaponShoot;
+    public static Action<EquippableItem> OnWeaponReload;
+    public static Action<EquippableItem> OnWeaponEquip;
+    public static Action<EquippableItem> OnSceneInitialization;
     void Start() {
         SkillModifier = GetComponentInParent<SkillList>().GetSkill(DerivedSkill);
+        character = GetComponentInParent<Character>();
+        if(weaponItem)
+            OnSceneInitialization(weaponItem);
+    }
+
+    public void LateUpdate() {
+        if(weaponItem) {
+            if (Input.GetButtonDown("Fire1") && attackAnimationTrigger != null)
+            {
+                if(weaponItem.weaponMeta.type == WeaponType.Ranged_Weapon && weaponItem.currentClip > 0) {
+                    weaponAnimator.SetTrigger(attackAnimationTrigger);
+                } else if (weaponItem.weaponMeta.type == WeaponType.Melee_Weapon) {
+                    weaponAnimator.SetTrigger(attackAnimationTrigger);
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.R)) {
+                RangedWeaponActionMeta meta = (RangedWeaponActionMeta)weaponItem.weaponMeta;
+                for(var i = 0; i < meta.clipSize; i++) {
+                    if(weaponItem.currentClip < meta.clipSize && character.Inventory.RemoveItem(meta.weaponAmmunition)) {
+                        weaponItem.currentClip++; 
+                    }
+                    OnWeaponReload(weaponItem);
+                }
+            }
+        }
+        
     }
 
     public void Activate() {
@@ -33,6 +67,18 @@ public class Weapon : MonoBehaviour
 
     public void Deactivate() {
         gameObject.SetActive( false );
+    }
+
+    //called during weapon animations to engage actions set on weapons
+    public void ExecuteAttack() {
+        if(weaponItem.weaponMeta.type == WeaponType.Ranged_Weapon) {
+            //take one from clip
+            weaponItem.currentClip -= 1;
+            OnWeaponShoot(weaponItem);
+            myWeaponAttack(gameObject);
+        } else if(weaponItem.weaponMeta.type == WeaponType.Melee_Weapon) {
+            myWeaponAttack(gameObject);
+        }
     }
 
     public void SetEquipped( bool status ) {
@@ -68,5 +114,10 @@ public class Weapon : MonoBehaviour
         canAttack = false;
         yield return new WaitForSecondsRealtime(time);
         canAttack = true;
+    }
+
+    public void SetWeaponItem(EquippableItem item) {
+        OnWeaponEquip(item);
+        weaponItem = item;
     }
 }

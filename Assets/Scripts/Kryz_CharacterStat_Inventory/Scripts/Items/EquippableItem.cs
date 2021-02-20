@@ -32,6 +32,7 @@ public class EquippableItem : Item
 	public GameObject GamePrefab;
 	public WeaponActionMeta weaponMeta;
 	public Item weaponAmmunition;
+	public int currentClip;
 
 	public override Item GetCopy()
 	{

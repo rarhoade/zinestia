@@ -10,11 +10,13 @@ public class RevolverMeta : RangedWeaponActionMeta
     public override void WeaponActionAttack(GameObject t)
     {
         base.WeaponActionAttack(t);
-        var bullet = Instantiate(
+        GameObject bullet = Instantiate(
             revolverBullet, 
             t.transform.position, 
             Quaternion.Euler(t.transform.parent.rotation.eulerAngles)
         );
+
+        bullet.GetComponent<Bullet>().onBulletImpact += (GameObject hit) => { Debug.Log("BAM" + hit.name);};
         Destroy(bullet, 1.0f);
     }
 }

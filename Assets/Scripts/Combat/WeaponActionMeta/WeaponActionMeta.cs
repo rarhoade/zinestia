@@ -11,6 +11,7 @@ public enum AnimationTrigger
 public enum WeaponType {
     Melee_Weapon,
     Ranged_Weapon,
+    None,
 }
 
 public class WeaponActionMeta : ScriptableObject

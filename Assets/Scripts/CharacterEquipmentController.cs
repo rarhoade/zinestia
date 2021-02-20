@@ -3,13 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.U2D.Animation;
+using Kryz;
 
 public class CharacterEquipmentController : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Transform Hand;
     public Weapon equippedWeapon;
-    CharacterMovement characterMovement;
 
     [SerializeField] SpriteLibrary equipmentLibrary;
     [SerializeField] SpriteLibrary armorLibrary;
@@ -18,23 +17,20 @@ public class CharacterEquipmentController : MonoBehaviour
     [SerializeField] string animationTrigger;
 
     void Start(){
-        characterMovement = GetComponent<CharacterMovement>();
+
     }
 
     #region Exposed To Character Component
     public void Equip(EquippableItem item) {
         switch(item.EquipmentType) {
             case EquipmentType.Weapon1:
-                Debug.Log("Weapon 1 Equip" + item.ItemName);
-                characterMovement.attackAnimationTrigger = System.Enum.GetName(
+                equippedWeapon.attackAnimationTrigger = System.Enum.GetName(
                     typeof(AnimationTrigger), 
                     item.weaponMeta.TriggerKeyword
                 ); 
                 EquipWeapon(item.GamePrefab, item);
-                SetWeaponAction(item.weaponMeta);
                 break;
             case EquipmentType.BodyArmor:
-                Debug.Log("BodyArmor Equip" + item.ItemName);
                 EquipBodyArmor(item.GamePrefab);
                 break;
             default: 
@@ -45,12 +41,10 @@ public class CharacterEquipmentController : MonoBehaviour
     public void Unequip(EquippableItem item) {
         switch(item.EquipmentType) {
             case EquipmentType.Weapon1:
-                Debug.Log("Weapon 1 Unequip" + item.ItemName);
-                characterMovement.attackAnimationTrigger = null;
+                equippedWeapon.attackAnimationTrigger = null;
                 UnequipWeapon();
                 break;
             case EquipmentType.BodyArmor:
-                Debug.Log("BodyArmor Equip" + item.ItemName);
                 UnequipBodyArmor();
                 break;
             default: 
@@ -72,6 +66,7 @@ public class CharacterEquipmentController : MonoBehaviour
     }
 
     void UnequipWeapon() {
+        UnequipWeaponAction();
         equipmentLibrary.spriteLibraryAsset = null;
         equipmentLibrary.gameObject.GetComponent<SpriteRenderer>().sprite = null;
     }
@@ -90,12 +85,19 @@ public class CharacterEquipmentController : MonoBehaviour
         } else if (item.weaponMeta.type == WeaponType.Ranged_Weapon) {
             Debug.Log("Ranged Weapon");
         }
+        EquipWeaponAction(item.weaponMeta);
+        equippedWeapon.SetWeaponItem(item);
         equipmentLibrary.spriteLibraryAsset = weapon.GetComponentInChildren<SpriteLibrary>().spriteLibraryAsset;
+        equipmentLibrary.gameObject.GetComponent<SpriteResolver>().SetCategoryAndLabel("Idle", "Idle");
         equipmentLibrary.gameObject.GetComponent<SpriteResolver>().ResolveSpriteToSpriteRenderer();
     } 
 
-    void SetWeaponAction(WeaponActionMeta meta) {
+    void EquipWeaponAction(WeaponActionMeta meta) {
         equippedWeapon.myWeaponAttack = null;
         equippedWeapon.myWeaponAttack = meta.WeaponActionAttack;
+    }
+
+    void UnequipWeaponAction() {
+        equippedWeapon.myWeaponAttack = null;
     }
 }

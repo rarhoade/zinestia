@@ -1,10 +1,30 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
+[System.Serializable, ES3Serializable]
+public class ItemTuple {
+	public Item Item;
+	public int Amount;
+
+	public ItemTuple(Item item, int amount) {
+		this.Item = item;
+		this.Amount = amount;
+	}
+
+	public ItemTuple() {
+		Item = null;
+		Amount = 0;
+	}
+}
+
+[ES3Serializable]
 public class Inventory : ItemContainer
 {
-	[SerializeField] protected Item[] startingItems;
-	[SerializeField] protected Transform itemsParent;
 
+	[SerializeField] protected ItemTuple[] startingItems;
+	[SerializeField] protected Transform itemsParent;
+	public static Action<ItemTuple> OnItemAdd;
+	public static Action<Item> OnItemRemove;
 	protected override void OnValidate()
 	{
 		if (itemsParent != null)
@@ -24,9 +44,9 @@ public class Inventory : ItemContainer
 	private void SetStartingItems()
 	{
 		Clear();
-		foreach (Item item in startingItems)
-		{
-			AddItem(item.GetCopy());
+		foreach(ItemTuple tuple in startingItems) {
+			AddItem(tuple.Item.GetCopy(), tuple.Amount);
 		}
 	}
+
 }

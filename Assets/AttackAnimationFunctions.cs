@@ -7,6 +7,6 @@ public class AttackAnimationFunctions : MonoBehaviour
     public Weapon weapon;
 
     public void AttackWithWeapon() {
-        weapon.myWeaponAttack(weapon.gameObject);
+        weapon.ExecuteAttack();
     }
 }

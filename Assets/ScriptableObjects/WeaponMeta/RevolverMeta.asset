@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c28bd2ccb80fef74b8023849e23919d8, type: 3}
   m_Name: RevolverMeta
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   TriggerKeyword: 1
   weaponAmmunition: {fileID: 11400000, guid: 9a4377a71d74f4244824575ace34d8cb, type: 2}
+  clipSize: 6
   revolverBullet: {fileID: 2161694233376193264, guid: 0af7854745dc24346ae0721055fbdca2, type: 3}
   attackCooldown: 0

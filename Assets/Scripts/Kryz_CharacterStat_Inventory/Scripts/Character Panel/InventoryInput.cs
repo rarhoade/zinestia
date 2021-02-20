@@ -4,14 +4,20 @@ public class InventoryInput : MonoBehaviour
 {
 	[SerializeField] GameObject characterPanelGameObject;
 	[SerializeField] GameObject equipmentPanelGameObject;
+	[SerializeField] GameObject pauseMenuGameObject;
 	[SerializeField] KeyCode[] toggleCharacterPanelKeys;
 	[SerializeField] KeyCode[] toggleInventoryKeys;
+	[SerializeField] KeyCode[] togglePauseMenuKeys;
 	[SerializeField] bool showAndHideMouse = true;
-
+	[SerializeField] bool enableMenuInput = true;
+	[SerializeField] bool loadSaveMenuInput = false; 
 	void Update()
 	{
-		ToggleCharacterPanel();
-		ToggleInventory();
+		if(enableMenuInput) {
+			ToggleCharacterPanel();
+			ToggleInventory();
+			ToggleEscapeMenu();
+		} 
 	}
 
 	private void ToggleCharacterPanel()
@@ -63,6 +69,14 @@ public class InventoryInput : MonoBehaviour
 		}
 	}
 
+	private void ToggleEscapeMenu() {
+		for (int i = 0; i < togglePauseMenuKeys.Length; i++) {
+			if (Input.GetKeyDown(togglePauseMenuKeys[i])) {
+				pauseMenuGameObject.GetComponent<PauseMenu>().TogglePause();
+			}
+		}
+	}
+
 	public void ShowMouseCursor()
 	{
 		if (showAndHideMouse)
@@ -84,5 +98,9 @@ public class InventoryInput : MonoBehaviour
 	public void ToggleEquipmentPanel()
 	{
 		equipmentPanelGameObject.SetActive(!equipmentPanelGameObject.activeSelf);
+	}
+
+	public void ToggleMenuInput(bool newValue) {
+		enableMenuInput = newValue;
 	}
 }

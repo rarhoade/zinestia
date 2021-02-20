@@ -28,3 +28,4 @@ MonoBehaviour:
   GamePrefab: {fileID: 579498777788573065, guid: 48a431815114c58479e46fb434a001f2, type: 3}
   weaponMeta: {fileID: 11400000, guid: c42c2764a775df64cbb1c6957a71d070, type: 2}
   weaponAmmunition: {fileID: 11400000, guid: 9a4377a71d74f4244824575ace34d8cb, type: 2}
+  currentClip: 6

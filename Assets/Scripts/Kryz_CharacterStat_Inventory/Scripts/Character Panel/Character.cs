@@ -238,15 +238,13 @@ public class Character : MonoBehaviour
 				if (previousItem != null)
 				{
 					Inventory.AddItem(previousItem);
-					//stat modification unequip
 					previousItem.Unequip(this);
-					//remove item to game world
+
 					equipmentController.Unequip(item);
 					statPanel.UpdateStatValues();
 				}
-				//stat modification equip
 				item.Equip(this);
-				//add item to game world
+
 				equipmentController.Equip(item);
 				statPanel.UpdateStatValues();
 			}

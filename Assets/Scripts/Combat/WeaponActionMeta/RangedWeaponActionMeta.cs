@@ -5,4 +5,5 @@ using Kryz.CharacterStats;
 
 public class RangedWeaponActionMeta : WeaponActionMeta {
     public Item weaponAmmunition;
+    public int clipSize = 0;
 }
